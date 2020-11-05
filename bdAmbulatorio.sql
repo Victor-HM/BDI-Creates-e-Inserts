@@ -37,7 +37,7 @@ create table tbMedico(
 	,codEspecialidade int foreign key references tbEspecialidade(codEspecialidade)
 );
 
-use table tbFuncionario(
+create table tbFuncionario(
 	codFuncionario int primary key identity(1,1)
 	,nomeFuncionario varchar(30)
 	,idadeFuncionario int
